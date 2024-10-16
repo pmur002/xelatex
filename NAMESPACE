@@ -4,14 +4,7 @@ import("grid")
 import("hexView")
 
 importFrom("latex",
-           "fromTeX",
            "registerEngine",
-           "TeXengine",
-           "TeXget",
-           "TeXglyphBounds",
-           "TeXglyphWidth",
-           "TeXmget",
-           "TeXset",
-           "TeXstate")
+           "TeXengine")
 
 export("XeTeXengine")
